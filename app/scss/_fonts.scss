@@ -1,0 +1,20 @@
+
+@font-face {
+  font-family: 'Outfit-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Outfit-Regular'),
+  url('../fonts/Outfit-Regular.woff2') format('woff2'),
+  url('../fonts/Outfit-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Outfit-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Outfit-Bold'),
+    url('../fonts/Outfit-Bold.woff2') format('woff2'),
+    url('../fonts/Outfit-Bold.woff') format('woff');
+  font-display: swap;
+}

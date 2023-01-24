@@ -1,0 +1,53 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+
+.header {
+  padding: 20px 0 110px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 13px;
+    line-height: 14px;
+    padding: 15px;
+    padding-top: 11px;
+    background-color: $title;
+    border-radius: 20px;
+    transition: all .5s;
+
+    &:hover {
+      background-color: #FF7F96;
+      color: #000;
+    }
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+  }
+
+  &__list-item+.menu__list-item {
+    margin-left: 48px;
+  }
+
+  &__list-link {
+    color: $default;
+    font-size: 15px;
+    line-height: 16px;
+    transition: all .3s;
+
+    &:hover {
+      color: #FF7F96;
+    }
+  }
+}
+
+@import 'media';
