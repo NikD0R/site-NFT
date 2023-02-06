@@ -124,7 +124,7 @@
 
     &::placeholder {
       font-size: 14px;
-      line-height: 16;
+      line-height: 16px;
       color: $default;
       opacity: 0.36;
     }
@@ -305,7 +305,7 @@
 }
 
 .about {
-  padding-bottom: 140px;
+  padding-bottom: 200px;
 
   &__descr {
     margin-bottom: 90px;
@@ -347,7 +347,6 @@
     @extend %outfit-700;
     color: #fff;
     background-color: $title;
-    border: none;
     padding: 12px 40px 16px;
     transition: all .5s;
 
@@ -398,8 +397,250 @@
     color: $title;
     margin: 10px 0 15px;
   }
+}
 
+.collection {
+  padding-bottom: 95px;
+  text-align: center;
 
+  .title {
+    margin-bottom: 70px;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+  }
+
+  &__item {
+    max-width: 358px;
+    text-align: left;
+  }
+
+  &__item-box {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+  }
+
+  &__item-titlelink {
+    color: $title;
+    transition: all .3s;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  &__item-title {
+    font-size: 26px;
+    display: inline-block;
+    @extend %outfit-700;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    @extend %outfit-700;
+    padding: 12px 40px 16px;
+    background-color: $title;
+    transition: all .5s;
+
+    &:hover {
+      color: #000;
+      background-color: $accent;
+    }
+  }
+}
+
+.top-nft {
+  padding-bottom: 110px;
+  text-align: center;
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 42px 38px;
+    margin-bottom: 65px;
+  }
+
+  &__item-img {
+    display: inline;
+  }
+
+  &__item-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+
+  &__name {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  &__name-title {
+    font-size: 16px;
+    line-height: 18px;
+    color: $title;
+    margin-right: 8px;
+  }
+
+  &__name-span {
+    font-size: 17px;
+    line-height: 18px;
+    @extend %outfit-700;
+    color: $title;
+    padding-top: 3px;
+  }
+
+  &__status {
+    display: flex;
+  }
+
+  &__status-imglink {
+    margin-right: 8px;
+  }
+}
+
+.faq {
+  padding-bottom: 120px;
+
+  .title {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  &__accordion-item {
+    margin-bottom: 10px;
+    // border: 1px solid #000;
+  }
+
+  &__accordion-name {
+    padding: 25px;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  &__accordion-namebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__accordion-title {
+    font-size: 22px;
+    line-height: 24px;
+    color: $title;
+  }
+
+  &__accordion-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transform: rotate(0);
+    transition: 0.4s;
+  }
+
+  &__accordion-btn--top {
+    transform: rotate(180deg);
+  }
+
+  &__accordion-content {
+    display: none;
+    padding: 25px;
+    background-color: #fff;
+  }
+}
+
+.contact {
+  padding-bottom: 125px;
+
+  &__inner {
+    display: flex;
+  }
+
+  &__info {
+    padding-top: 100px;
+    max-width: 400px;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  &__info-title {
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 35px;
+  }
+
+  &__info-text {
+    margin-bottom: 40px;
+  }
+
+  &__form {
+    width: 100%;
+    padding: 60px 40px;
+    box-shadow: 0px 5px 20px 0px rgba(146, 146, 146, 0.3);
+  }
+
+  &__form-input {
+    display: block;
+    width: 100%;
+    background-color: #F6F6F6;
+    border: none;
+    height: 60px;
+    padding: 0 24px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+    &::placeholder {
+      font-size: 16px;
+      line-height: 26px;
+      color: $default;
+      opacity: 0.36;
+    }
+  }
+
+  &__form-textarea {
+    display: block;
+    width: 100%;
+    resize: none;
+    height: 200px;
+    background-color: #F6F6F6;
+    border: none;
+    padding: 24px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+    &::placeholder {
+      font-size: 18px;
+      line-height: 26px;
+      color: $default;
+      opacity: 0.36;
+    }
+  }
+
+  &__form-btn {
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    @extend %outfit-700;
+    padding: 12px 40px 16px;
+    background-color: $title;
+    border: none;
+    border-radius: 20px;
+    transition: all .5s;
+    cursor: pointer;
+
+    &:hover {
+      color: #000;
+      background-color: $accent;
+    }
+  }
 }
 
 @import 'media';

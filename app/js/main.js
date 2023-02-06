@@ -35,4 +35,46 @@ $(function(){
     $('.team__inner--second').hide();
  });
 
+ $('.faq__accordion-name').on('click', function (e) {
+      
+      var accordionitem = $(this).attr('data-tab');
+      
+      $('#' + accordionitem)
+      
+      .slideToggle()
+      
+      .parent()
+      
+      .siblings()
+      
+      .find('.faq__accordion-content')
+      
+      .slideUp();
+      
+      $(this).toggleClass('active-name');
+      
+      $('#' + accordionitem)
+      
+      .parent()
+      
+      .siblings()
+      
+      .find('.faq__accordion-name')
+      
+      .removeClass('active-name');
+      
+      $('.faq__accordion-btn', this).toggleClass('faq__accordion-btn--top');
+      
+      $('#' + accordionitem)
+      
+      .parent()
+      
+      .siblings()
+      
+      .find('.faq__accordion-btn')
+      
+      .removeClass('faq__accordion-btn--top');
+      
+      });
+
 });
