@@ -7,23 +7,26 @@
   <title>NFT</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
+<body id="home">
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <a class="logo" href="#">
+        <a class="logo" href="#home">
           <img class="logo__img" src="images/logo.png" alt="logo">
         </a>
         <nav class="menu">
+          <button class="menu__btn">
+            <span></span>
+          </button>
           <ul class="menu__list">
             <li class="menu__list-item">
-              <a class="menu__list-link" href="#">About us</a>
+              <a class="menu__list-link" href="#about">About us</a>
             </li>
             <li class="menu__list-item">
-              <a class="menu__list-link" href="#">NFTs</a>
+              <a class="menu__list-link" href="#nft">NFTs</a>
             </li>
             <li class="menu__list-item">
-              <a class="menu__list-link" href="#">Contact</a>
+              <a class="menu__list-link" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -62,7 +65,7 @@
               </a>
             </li>
           </ul>
-          <a class="header__link" href="#">
+          <a class="header__link" href="https://opensea.io/" target="_blank">
             View on OpenSea
           </a>
       </div>
@@ -80,7 +83,7 @@
               Change your Digital Experience
             </h1>
             <p class="experience__text">
-              Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at
+              If you still haven't dealt with NFT, we'll help you fix it. You will see how simple and fascinatingly it is.
             </p>
           </div>
           <img class="experience__img" src="images/content/digital-nft1.png" alt="experience in NFT">
@@ -105,18 +108,17 @@
           Hey there, we are
         </h2>
         <p class="team__text">
-          Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam
-          arcu, porta et magna at
+          Here you can learn more about each member of our team, which can make NFT of any complexity.
         </p>
         <div class="team__filter">
           <button class="team__filter-btn team__filter-btn--team-1 team__filter-btn--active">
             Jack
           </button>
           <button class="team__filter-btn team__filter-btn--team-2">
-            Suni
+            Julia
           </button>
           <button class="team__filter-btn team__filter-btn--team-3">
-            Colin
+            Nick
           </button>
         </div>
         <div class="team__inner team__inner--first">
@@ -126,44 +128,45 @@
               Digital Artist
             </p>
             <h4 class="team__content-title">
-              Pellentesque blandit in quam rhoncus
+              Make my artwork come alive
             </h4>
             <p class="team__content-text">
-              Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam
+              Highly creative and multitalented Digital Artist with 10+ years of experience in multimedia, marketing and print design. Passionate and resourceful creator of innovative NFT marketing strategies and campaigns, that are popular worldwide. Accustomed to performing in deadline-driven, fast paced environments with an emphasis on ensuring projects are completed within budget.
             </p>
           </div>
         </div>
         <div class="team__inner team__inner--second">
-          <img class="team__image" src="images/team/team-1.jpg" alt="man of our team">
+          <img class="team__image" src="images/team/team-2.jpg" alt="girl of our team">
           <div class="team__content">
             <p class="team__content-subtitle">
-              Digital Artistsdsd
+              Graphic Designer
             </p>
             <h4 class="team__content-title">
-              Pellentesque blandit in quam rhoncus
+              Use illustrations to present a product
             </h4>
             <p class="team__content-text">
-              Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam
+              A creative, innovative, bilingual Graphic Designer with extensive experience in multimedia, graphic design, social media campaigns. Able to research and understand customer needs and deliver products that exceed all initial expectations. I'm used to working quickly, I put my heart and soul into all the works, do the work clearly within the budget.
             </p>
           </div>
         </div>
         <div class="team__inner team__inner--third">
-          <img class="team__image" src="images/team/team-1.jpg" alt="man of our team">
+          <img class="team__image" src="images/team/team-3.jpg" alt="man of our team">
           <div class="team__content">
             <p class="team__content-subtitle">
-              Digital Artist dd
+              Design Manager
             </p>
             <h4 class="team__content-title">
-              Pellentesque blandit in quam rhoncus
+              Coordinate with the team and the client
             </h4>
             <p class="team__content-text">
-              Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam
+              An effective management career spanning over 8 years demonstrating yearly improvements in sales, customer service
+              ratings and team performance. Strong customer service leader with excellent analytical, organizational and planning skills. Constant communication with the client throughout the execution of the order. The order is always completed on time.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="about__descr">
           <div class="about__descr-inner">
@@ -176,8 +179,7 @@
                 “Um… what’s going on here?”
               </h2>
               <p class="about__descr-text">
-                Nulla facilisi. Praesent molestie diam eu enim aliquet pellentesque. Vestibulum consectetur vestibulum tristique. Sed
-                purus neque, maximus fermentum bibendum et, porta in sapien.
+                We create unusual, but at the same time original NFTs, inspired by ideas from life. We create such NFTs that you are not ashamed to give to a friend or put on the marketplace. Our NFTs are used in many applications by top companies around the world.
               </p>
               <a class="about__descr-link" href="#">
                 About Codx
@@ -194,7 +196,7 @@
                   Motion Graphic
                 </h4>
                 <p class="about__info-text">
-                  Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at
+                  Thanks to animated graphics, we present NFT in all its exceptional beauty.
                 </p>
               </div>
               <div class="about__info-item">
@@ -203,7 +205,7 @@
                   Digital Illustration
                 </h4>
                 <p class="about__info-text">
-                  Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at
+                  Digital illustration allows us to create exactly the NFT that the customer imagined.
                 </p>
               </div>
               <div class="about__info-item">
@@ -212,7 +214,7 @@
                   Photography
                 </h4>
                 <p class="about__info-text">
-                  Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at
+                  We can make an NFT from a photo and it will be an exact copy of the image.
                 </p>
               </div>
             </div>
@@ -263,7 +265,7 @@
         </a>
       </div>
     </section>
-    <section class="top-nft">
+    <section class="top-nft" id="nft">
       <div class="container">
         <h2 class="title">
           Top NFT
@@ -377,7 +379,7 @@
         </a>
       </div>
     </section>
-    <section class="faq">
+   <section class="faq">
       <div class="container">
         <h2 class="title">
           FAQ
@@ -387,7 +389,7 @@
             <div class="faq__accordion-name" data-tab="item-1">
               <div class="faq__accordion-namebox">
                 <h4 class="faq__accordion-title">
-                  Donec posuere massa nec arcu scelerisque, blandit mattis justo blandit
+                  What Is an NFT?
                 </h4>
                 <button class="faq__accordion-btn">
                   <svg width="28" height="17" viewBox="0 0 28 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -406,7 +408,8 @@
             </div>
             <div class="faq__accordion-content" id="item-1">
               <p class="faq__accordion-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, minus beatae laudantium fugiat enim adipisci ipsum possimus modi. Vitae ea quas illum? Asperiores expedita totam iure odio minima voluptatum animi?
+                NFTs ("Non-Fungible Tokens") are one-of-a-kind tokens that represent a unique good or asset, like digital art. They can
+                be sold in to collectors and the sale of NFTs. NFTs created on Mint are hosted on the Flow blockchain.
               </p>
             </div>
           </div>
@@ -414,7 +417,7 @@
             <div class="faq__accordion-name" data-tab="item-2">
               <div class="faq__accordion-namebox">
                 <h4 class="faq__accordion-title">
-                  Donec posuere massa nec arcu scelerisque, blandit mattis justo blandit
+                  What Are NFTs Used For?
                 </h4>
                 <button class="faq__accordion-btn">
                   <svg width="28" height="17" viewBox="0 0 28 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -433,7 +436,9 @@
             </div>
             <div class="faq__accordion-content" id="item-2">
               <p class="faq__accordion-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, minus beatae laudantium fugiat enim adipisci ipsum possimus modi. Vitae ea quas illum? Asperiores expedita totam iure odio minima voluptatum animi?
+                NFTs can be used to indicate ownership of rare assets which represents real-world items like real estate and artwork. It’s important to note however that purchasing an NFT that includes the copyright of the original artwork does not mean
+                its copyright is automatically transferred to you. While you can sell the NFT itself, you are prohibited from
+                reproducing or selling its content.
               </p>
             </div>
           </div>
@@ -441,7 +446,7 @@
             <div class="faq__accordion-name" data-tab="item-3">
               <div class="faq__accordion-namebox">
                 <h4 class="faq__accordion-title">
-                  Donec posuere massa nec arcu scelerisque, blandit mattis justo blandit
+                  How To Make Money With NFTs?
                 </h4>
                 <button class="faq__accordion-btn">
                   <svg width="28" height="17" viewBox="0 0 28 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -460,7 +465,7 @@
             </div>
             <div class="faq__accordion-content" id="item-3">
               <p class="faq__accordion-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, minus beatae laudantium fugiat enim adipisci ipsum possimus modi. Vitae ea quas illum? Asperiores expedita totam iure odio minima voluptatum animi?
+                NFTs can be treated like stocks — can be bought or sold when their value changes. The best way to make money from NFTs is to buy low and sell when it appreciates. While you can also create NFTs by minting them, the additional cost of creation such as royalties, account setup fees, site fees (ranges from free to $900), marketplace listing price, and gas fees are factors to consider when calculating profits. Whether you choose to buy and sell later or set out to create NFTs, you must first realize how the NFT world works and what would and wouldn’t sell or risk losing money.
               </p>
             </div>
           </div>
@@ -468,7 +473,7 @@
             <div class="faq__accordion-name" data-tab="item-4">
               <div class="faq__accordion-namebox">
                 <h4 class="faq__accordion-title">
-                  Donec posuere massa nec arcu scelerisque, blandit mattis justo blandit
+                  What Is The Future Of NFTs?
                 </h4>
                 <button class="faq__accordion-btn">
                   <svg width="28" height="17" viewBox="0 0 28 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -487,7 +492,7 @@
             </div>
             <div class="faq__accordion-content" id="item-4">
               <p class="faq__accordion-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, minus beatae laudantium fugiat enim adipisci ipsum possimus modi. Vitae ea quas illum? Asperiores expedita totam iure odio minima voluptatum animi?
+                OpenSea co-founder Alex Atallah said in an email that “the possibilities of NFTs are endless since they can be used to log ownership of any unique asset.” Using NFTs as event tickets, software licenses, fan club memberships, or other interactive experiences is already a common use case for NFTs. Nike and other well-known American companies are already experimenting with new ways to use NFTs. The metaverse, a virtual 3D world proposed by Meta (formerly Facebook) CEO Mark Zuckerberg and other tech industry heavyweights, could make use of NFTs as building blocks for a future digital universe.
               </p>
             </div>
           </div>
@@ -495,7 +500,7 @@
             <div class="faq__accordion-name" data-tab="item-5">
               <div class="faq__accordion-namebox">
                 <h4 class="faq__accordion-title">
-                  Donec posuere massa nec arcu scelerisque, blandit mattis justo blandit
+                  Where Can I Buy NFTs?
                 </h4>
                 <button class="faq__accordion-btn">
                   <svg width="28" height="17" viewBox="0 0 28 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -514,14 +519,14 @@
             </div>
             <div class="faq__accordion-content" id="item-5">
               <p class="faq__accordion-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, minus beatae laudantium fugiat enim adipisci ipsum possimus modi. Vitae ea quas illum? Asperiores expedita totam iure odio minima voluptatum animi?
+                You can contact us and choose interesting NFTs for yourself. The price is agreed upon after contact with the client. You can also visit one of the best marketplaces where you can buy NFTs, <a class="faq__accordion-link" href="https://opensea.io/" target="_blank">OpenSea</a>, and find the right NFT for you there.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <div class="contact__inner">
           <div class="contact__info">
@@ -529,26 +534,24 @@
               Feel Free To Contact With Us
             </h3>
             <p class="contact__info-text">
-              Lorem ipsum dolor sit amet, consectetur adingn elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua.
-              Quis ipsum suspendisse ultrices gravida. Risus commodo maecnaacnrao cumsan lacus vel facilisis.
+              Have questions about our products, quality of customer service or anything else? Do not be afraid to write to us, we will be happy to answer any of your questions. Our manager is in touch 24/7 and he is always ready to help you
             </p>
           </div>
           <form class="contact__form" action="#">
-            <input class="contact__form-input" type="text" placeholder="Your Name">
-            <input class="contact__form-input" type="email" placeholder="Your E-mail Address">
-            <textarea class="contact__form-textarea" placeholder="Message here"></textarea>
+            <input class="contact__form-input" type="text" placeholder="Your Name" required>
+            <input class="contact__form-input" type="email" placeholder="Your E-mail Address" required>
+            <textarea class="contact__form-textarea" placeholder="Message here" required></textarea>
             <button class="contact__form-btn" type="submit">Send Message</button>
           </form>
         </div>
       </div>
     </section>
-  </main>
+  </main> 
   <footer class="footer">
     <div class="container">
       <div class="footer-top">
         <div class="footer-top__item footer-top__social">
-          <a class="logo footer-top__logo" href="#">
+          <a class="logo footer-top__logo" href="#home">
             <img class="logo__img" src="images/logo.png" alt="logo">
           </a>
           <h6 class="footer-top__title">
@@ -596,17 +599,17 @@
           </h6>
           <ul class="footer-top__list">
             <li class="footer-top__item">
-              <a class="footer-top__link" href="#">
+              <a class="footer-top__link" href="#about">
                 About us
               </a>
             </li>
             <li class="footer-top__item">
-              <a class="footer-top__link" href="#">
+              <a class="footer-top__link" href="#nft">
                 NFTs
               </a>
             </li>
             <li class="footer-top__item">
-              <a class="footer-top__link" href="#">
+              <a class="footer-top__link" href="#contact">
                 Contact
               </a>
             </li>
@@ -639,7 +642,7 @@
             Stay in the loop
           </h4>
           <p class="footer-top__text">
-            Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at
+            Join our mailing list to stay in the loop with our newest NFT drops, and tips and tricks for navigating CodX.
           </p>
           <form class="footer-top__form" action="#">
             <input class="footer-top__form-input" type="email" placeholder="Your email address" required>
@@ -651,14 +654,14 @@
       </div>
       <div class="footer-bottom">
         <p class="footer-bottom__copy">
-          © 2022 All rights reserved.
+          © 2023 All rights reserved.
         </p>
         <p class="footer-bottom__creator">
           Created By<span class="footer-bottom__span">Udesly</span>Powered By<span class="footer-bottom__span">Webflow</span>
         </p>
       </div>
     </div>
-  </footer>
+  </footer> 
   <script src="js/main.min.js"></script>
 </body>
 </html>

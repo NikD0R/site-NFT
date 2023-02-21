@@ -5,12 +5,19 @@
 @import 'global';
 
 .header {
-  padding: 20px 0 110px;
+  padding: 20px 0;
+  background-color: #f9eeef;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 
   &__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   &__link {
@@ -31,6 +38,11 @@
 }
 
 .menu {
+
+  &__btn {
+    display: none;
+  }
+
   &__list {
     display: flex;
   }
@@ -93,12 +105,12 @@
   }
 
   &__utility {
-    width: 100px;
+    width: 115px;
     margin-right: 100px;
   }
 
   &__form {
-    width: 440px;
+    max-width: 440px;
   }
 
   &__form-title {
@@ -154,6 +166,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
   &__copy {
     font-size: 14px;
@@ -175,7 +188,7 @@
 }
 
 .experience {
-  padding-bottom: 145px;
+  padding: 135px 0 145px;
   
   &__inner {
     display: flex;
@@ -279,6 +292,14 @@
     display: none;
   }
 
+  .team__inner--second[style*='display: block'] {
+    display: flex !important;
+  }
+
+  .team__inner--third[style*='display: block'] {
+    display: flex !important;
+  }
+
   &__content {
     text-align: left;
     padding-top: 45px;
@@ -364,7 +385,7 @@
   &__info-items {
     padding-top: 64px;
     max-width: 435px;
-    margin-right: 150px;
+    margin-right: 125px;
   }
 
   &__info-item {
@@ -410,6 +431,7 @@
   &__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 75px;
   }
 
@@ -517,11 +539,10 @@
 
   &__accordion-item {
     margin-bottom: 10px;
-    // border: 1px solid #000;
   }
 
   &__accordion-name {
-    padding: 25px;
+    padding: 22px;
     cursor: pointer;
     transition: transform 0.4s ease-in-out;
   }
@@ -529,7 +550,6 @@
   &__accordion-namebox {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   &__accordion-title {
@@ -554,6 +574,10 @@
     display: none;
     padding: 25px;
     background-color: #fff;
+  }
+
+  &__accordion-link {
+    color: $accent;
   }
 }
 
