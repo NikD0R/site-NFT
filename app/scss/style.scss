@@ -126,7 +126,7 @@
   }
 
   &__form-input {
-    background-color:#F6F6F6;
+    background-color: #F6F6F6;
     border-radius: 20px;
     border: none;
     max-width: 327px;
@@ -189,12 +189,12 @@
 
 .experience {
   padding: 135px 0 145px;
-  
+
   &__inner {
     display: flex;
     position: relative;
   }
-  
+
   &__content {
     max-width: 560px;
     margin-right: 50px;
@@ -204,7 +204,7 @@
   &__subtitle {
     font-size: 13px;
     line-height: 14px;
-    color:#82CBAC;
+    color: #82CBAC;
   }
 
   &__img {
@@ -279,7 +279,7 @@
     background-color: $title;
   }
 
-  &__filter-btn + .team__filter-btn {
+  &__filter-btn+.team__filter-btn {
     margin-left: 8px;
   }
 
@@ -546,7 +546,7 @@
     cursor: pointer;
     transition: transform 0.4s ease-in-out;
   }
-  
+
   &__accordion-namebox {
     display: flex;
     justify-content: space-between;

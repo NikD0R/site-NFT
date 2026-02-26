@@ -38,21 +38,20 @@ body {
     padding-top: 8px;
   }
 
-  &__item + .social-list__item {
-   padding-left: 20px;
+  &__item+.social-list__item {
+    padding-left: 20px;
   }
 
   &__link {
-    transition: all .5s;
-
     path {
       fill: $default;
+      transition: fill .4s;
     }
 
     &:hover {
 
       path {
-        fill:#FF7F96;
+        fill: #FF7F96;
       }
     }
   }
