@@ -13,19 +13,19 @@ NFT Website is a modern landing page for presenting NFT collections. The project
 
 ### Core
   - **HTML5** — Semantic markup
-  - SCSS — Advanced styling with variables and placeholders
-  - JavaScript (ES6+) — Client-side logic
+  - **SCSS** — Advanced styling with variables and placeholders
+  - **JavaScript (ES6+)** — Client-side logic
 
 ### Libraries & Tools
-  - jQuery — DOM manipulation and event handling
-  - Slick Carousel — Interactive sliders for NFT items
-  - AOS (Animate On Scroll) — Scroll animations for better engagement
-  - BEM — CSS naming convention for modularity
+  - **jQuery** — DOM manipulation and event handling
+  - **Slick Carousel** — Interactive sliders for NFT items
+  - **AOS (Animate On Scroll)** — Scroll animations for better engagement
+  - **BEM** — CSS naming convention for modularity
 
 ### Development & Deployment
-  - Gulp — Task runner for building, minification, and image optimization
-  - BrowserSync — Live reloading during development
-  - Netlify — Hosting and continuous deployment
+  - **Gulp** — Task runner for building, minification, and image optimization
+  - **BrowserSync** — Live reloading during development
+  - **Netlify** — Hosting and continuous deployment
 
 <br>
 
