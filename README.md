@@ -1,4 +1,4 @@
-# NFT Website
+# 🖼️ NFT Website
 NFT Website is a modern landing page for presenting NFT collections. The project was implemented using the BEM methodology and automation via Gulp, which ensures rapid development and optimized assembly.
 
 
@@ -19,7 +19,6 @@ NFT Website is a modern landing page for presenting NFT collections. The project
 ### Libraries & Tools
   - **jQuery** — DOM manipulation and event handling
   - **Slick Carousel** — Interactive sliders for NFT items
-  - **AOS (Animate On Scroll)** — Scroll animations for better engagement
   - **BEM** — CSS naming convention for modularity
 
 ### Development & Deployment
